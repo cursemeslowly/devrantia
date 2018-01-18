@@ -13,8 +13,10 @@ The purpose of this page is to update you guys with the progress of Devrantia. _
 
 **2018-01-18**
 - Set up this github-page
-- Define tech stack for project
+- Define tech stack for project [Tech Environments](https://github.com/cursemeslowly/devrantia/wiki/Tech-Environments)
+- Set up dev branch
 - Set up laravel with basic necessary packages
+- Started brainstorming DB structure ![DB Structure Sketch 0.1](https://cursemeslowly.github.io/devrantia/uploads/db-structure-sketch-0.1.jpg)
 
 **2018-01-15**
 - Convinced my lazy ass to officially initiate the project, finally. _woohooo_
