@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to Project Devrantia
 
-You can use the [editor on GitHub](https://github.com/cursemeslowly/devrantia/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+> This whole thing is originated at [devRant Collab](https://devrant.com/collabs/1063123/rpg-for-developers-devlife). First I thought of going with devlife but decided to steal "devrantia" from our discord server. (Don't kill me guys). All credits go to so many developers I have met on devrant. Without meeting them, without using devrant, this project would have never started.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The purpose of this page is to update you guys with the progress of Devrantia. _(It will be slow but I do plan to finish it.)_
 
-### Markdown
+### Helpful Links
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [wiki](https://github.com/cursemeslowly/devrantia/wiki) : you can learn details of stuffs (yeah stuffs from random notes to storyline to documentations)
+- [issues](https://github.com/cursemeslowly/devrantia/issues) : current place to brainstorm, suggest and complain about tasks and features for this project
 
-```markdown
-Syntax highlighted code block
+### Progress
 
-# Header 1
-## Header 2
-### Header 3
+**2018-01-15**
+- Convinced my lazy ass to officially initiate the project, finally. _woohooo_
+- Decided to use laravel + vue after chatting with [zubin](https://github.com/iamzubin)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cursemeslowly/devrantia/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**2018-01-15**
+- Set up this github-page
