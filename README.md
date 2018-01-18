@@ -11,9 +11,11 @@ The purpose of this page is to update you guys with the progress of Devrantia. _
 
 ### Progress
 
+**2018-01-18**
+- Set up this github-page
+- Define tech stack for project
+- Set up laravel with basic necessary packages
+
 **2018-01-15**
 - Convinced my lazy ass to officially initiate the project, finally. _woohooo_
 - Decided to use laravel + vue after chatting with [zubin](https://github.com/iamzubin)
-
-**2018-01-15**
-- Set up this github-page
