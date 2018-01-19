@@ -11,6 +11,11 @@ The purpose of this page is to update you guys with the progress of Devrantia. _
 
 ### Progress
 
+**2018-01-19**
+- Checking tools to use for frontend especially vue-js related
+- Interestingly found out that [Habitica](https://habitica.com/static/home) also uses vue. Habitica is an app/game we can learn and make reference of for devrantia.
+- This word guessing game is also based on laravel + vue [Guess Right](https://github.com/KDCinfo/guess-right)
+
 **2018-01-18**
 - Set up this github-page
 - Define tech stack for project [Tech Environments](https://github.com/cursemeslowly/devrantia/wiki/Tech-Environments)
