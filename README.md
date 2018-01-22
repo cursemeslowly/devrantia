@@ -8,11 +8,16 @@ The purpose of this page is to update you guys with the progress of Devrantia. _
 
 - [wiki](https://github.com/cursemeslowly/devrantia/wiki) : you can learn details of stuffs (yeah stuffs from random notes to storyline to documentations)
 - [issues](https://github.com/cursemeslowly/devrantia/issues) : current place to brainstorm, suggest and complain about tasks and features for this project
+- [![Join the chat at https://gitter.im/devrantia/Lobby](https://badges.gitter.im/devrantia/Lobby.svg)](https://gitter.im/devrantia/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Progress
 
+**2018-01-22**
+- Set up [Gitter room](https://gitter.im/devrantia/Lobby)
+
 **2018-01-19**
 - Checking tools to use for frontend especially vue-js related
+- Set up (References page)[https://github.com/cursemeslowly/devrantia/wiki/4.-References]
 - Interestingly found out that [Habitica](https://habitica.com/static/home) also uses vue. Habitica is an app/game we can learn and make reference of for devrantia.
 - This word guessing game is also based on laravel + vue [Guess Right](https://github.com/KDCinfo/guess-right)
 
