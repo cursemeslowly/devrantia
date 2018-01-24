@@ -12,22 +12,30 @@ The purpose of this page is to update you guys with the progress of Devrantia. _
 
 ### Progress
 
+**2018-01-24**
+
+- [Working on github login](docs/github-login.md). Half way done, I guess. Can retrive user's github data. Left with storing them and creating user.
+
 **2018-01-22**
+
 - Set up [Gitter room](https://gitter.im/devrantia/Lobby)
 
 **2018-01-19**
+
 - Checking tools to use for frontend especially vue-js related
-- Set up (References page)[https://github.com/cursemeslowly/devrantia/wiki/4.-References]
+- Set up [References page](https://github.com/cursemeslowly/devrantia/wiki/4.-References)
 - Interestingly found out that [Habitica](https://habitica.com/static/home) also uses vue. Habitica is an app/game we can learn and make reference of for devrantia.
 - This word guessing game is also based on laravel + vue [Guess Right](https://github.com/KDCinfo/guess-right)
 
 **2018-01-18**
+
 - Set up this github-page
 - Define tech stack for project [Tech Environments](https://github.com/cursemeslowly/devrantia/wiki/Tech-Environments)
 - Set up dev branch
-- Set up laravel with basic necessary packages
+- [Set up laravel with basic necessary packages](docs/setup-laravel.md)
 - Started brainstorming DB structure [Please participate and discuss here.](https://github.com/cursemeslowly/devrantia/issues/2)
 
 **2018-01-15**
+
 - Convinced my lazy ass to officially initiate the project, finally. _woohooo_
 - Decided to use laravel + vue after chatting with [zubin](https://github.com/iamzubin)
