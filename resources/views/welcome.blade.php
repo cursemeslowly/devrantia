@@ -76,6 +76,9 @@
                     @endauth
                 </div>
             @endif
+            <div class="top-right links">
+                <a href="{{ url('login/github') }}">Login with Github</a>
+            </div>
 
             <div class="content">
                 <div class="title m-b-md">
