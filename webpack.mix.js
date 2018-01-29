@@ -14,3 +14,9 @@ let mix = require('laravel-mix');
 mix.js('resources/assets/js/app.js', 'public/js')
     .extract(['vue']);
    // .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.styles([
+    'public/css/materialdesignicons.min.css',
+    'public/css/buefy.min.css',
+    'public/css/app.css',
+], 'public/css/all.css');

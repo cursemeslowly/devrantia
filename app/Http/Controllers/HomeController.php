@@ -14,7 +14,8 @@ class HomeController extends Controller {
 	 * Show home page to logged in user.
 	 */
 	public function index(Request $request) {
-		$user = $request->session()->pull('testUser');
-		dd($user);
+		// $user = $request->session()->pull('testUser');
+		// dd($user);
+		return view('home');
 	}
 }
