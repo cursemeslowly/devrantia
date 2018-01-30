@@ -45,7 +45,7 @@
                             Login
                         </button>
                         <br>
-                        <a href="{{ url('home') }}" class="button is-block is-default is-large">Login using <i class="mdi mdi-github-circle"></i></a>
+                        <a href="{{ url('login/github') }}" class="button is-block is-default is-large">Login using <i class="mdi mdi-github-circle"></i></a>
                     </form>
                 </div>
                 <p class="has-text-grey">

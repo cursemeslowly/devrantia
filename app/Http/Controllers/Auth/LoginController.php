@@ -3,7 +3,10 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\Profile;
+use App\Models\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Auth;
 use Socialite;
 
 class LoginController extends Controller {
@@ -54,13 +57,49 @@ class LoginController extends Controller {
 	 */
 	public function handleProviderCallback() {
 		try {
-			$user = Socialite::driver('github')->user();
+			$user = Socialite::driver('github')
+				->scopes(['read:user', 'public_repo'])
+				->user();
 		} catch (Exception $e) {
 			return redirect('login/github');
 		}
 
-		session(['testUser' => $user]);
+		$authUser = $this->findOrCreateUser($user);
+
+		Auth::login($authUser, true);
 
 		return redirect('home');
 	}
+
+	/**
+	 * Return user if exists; create and return if doesn't
+	 *
+	 * @param $githubUser
+	 * @return User
+	 */
+	private function findOrCreateUser($githubUser) {
+		$authUser = User::where('github_id', $githubUser->id)->first();
+
+		if ($authUser !== NULL) {
+			return $authUser;
+		}
+
+		$user = User::create([
+			'email' => $githubUser->getEmail(),
+			'github_id' => $githubUser->getId(),
+			'password' => bcrypt(str_random(6)),
+		]);
+
+		Profile::create([
+			'user_id' => $user->id,
+			'name' => $githubUser->getName(),
+			'avatar' => $githubUser->getAvatar(),
+			'experience' => 100,
+			'reputation' => 1,
+			'devcoins' => 1100,
+		]);
+
+		return $user;
+	}
+
 }

@@ -4,18 +4,25 @@
 
 <div class="container">
   <div class="columns">
-    <div class="column is-3">
+    <div class="column is-4">
       <div class="card is-fullwidth">
         <header class="card-header">
         </header>
         <div class="card-content">
           <a class="card-avatar">
-            <img src="http://placehold.it/150x150" class="card-avatar-img">
+            @if($user->profile->avatar === NULL)
+              <img src="http://placehold.it/200x200" class="card-avatar-img">
+            @else
+              <img src="{{ $user->profile->avatar }}" class="card-avatar-img">
+            @endif
           </a>
 
           <div class="card-user">
             <div class="card-user-name">
-              <a href="#">{{{ $user->profile->name }}}</a>
+              <a href="#">
+                {{ $user->profile->name }}
+                @if($user->github_id != NULL) <i class="mdi mdi-github-circle"></i> @endif
+              </a>
             </div>
             <span>
               <a href="#"><span>{{ $user->profile->title }}</span></a>
@@ -47,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div class="column is-9">
+    <div class="column is-8">
       <div class="box">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
