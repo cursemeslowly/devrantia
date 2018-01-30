@@ -2,20 +2,25 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller {
+	/**
+	 * Create a new controller instance.
+	 *
+	 * @return void
+	 */
 	public function __construct() {
-		// $this->middleware('guest')->except('logout');
+		$this->middleware('auth');
 	}
 
 	/**
-	 * Show home page to logged in user.
+	 * Show the application dashboard.
+	 *
+	 * @return \Illuminate\Http\Response
 	 */
 	public function index(Request $request) {
-		// $user = $request->session()->pull('testUser');
-		// dd($user);
-		return view('home');
+		$user = $request->user();
+		return view('home', compact('user'));
 	}
 }

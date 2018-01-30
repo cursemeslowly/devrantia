@@ -27,4 +27,11 @@ class User extends Authenticatable {
 	protected $hidden = [
 		'password', 'remember_token',
 	];
+
+	/**
+	 * Get the profile record associated with the user.
+	 */
+	public function profile() {
+		return $this->hasOne('App\Models\Profile');
+	}
 }
