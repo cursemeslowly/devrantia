@@ -11,3 +11,10 @@
 5. Created users and profiles tables schema.
 6. Created default roles and users using Seeder files.
 7. Installed [Buefy - Lightweight UI components for Vue.js based on Bulma](https://buefy.github.io/#/documentation/start).
+
+### Screenshots
+
+- ![Login form](uploads/ss-login.png)
+- ![Default Admin user profile](uploads/ss-profile-admin.png)
+- ![User profile registered with email](uploads/ss-profile-testuser.png)
+- ![User profile logged in with github](uploads/ss-profile-githubuser.png)

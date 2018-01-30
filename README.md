@@ -12,6 +12,12 @@ The purpose of this page is to update you guys with the progress of Devrantia. _
 
 ### Progress
 
+**2018-01-30**
+
+- Created logo version 1.0.
+- [Finished Github login](docs/github-login.md).
+
+
 **2018-01-26**
 
 - Still [Working on github login](docs/github-login.md).
