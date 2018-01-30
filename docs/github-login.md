@@ -14,7 +14,7 @@
 
 ### Screenshots
 
-- ![Login form](uploads/ss-login.png "Login form")
-- ![Default Admin user profile](uploads/ss-profile-admin.png "Default Admin user profile")
-- ![User profile registered with email](uploads/ss-profile-testuser.png "User profile registered with email")
-- ![User profile logged in with github](uploads/ss-profile-githubuser.png "User profile logged in with github")
+- ![Login form](devrantia/uploads/ss-login.png "Login form")
+- ![Default Admin user profile](devrantia/uploads/ss-profile-admin.png "Default Admin user profile")
+- ![User profile registered with email](devrantia/uploads/ss-profile-testuser.png "User profile registered with email")
+- ![User profile logged in with github](devrantia/uploads/ss-profile-githubuser.png "User profile logged in with github")
