@@ -1,6 +1,6 @@
 ## Documentation
 
-- [Home](/)
+- [Home](/devrantia)
 
 ### Setup Laravel
 
