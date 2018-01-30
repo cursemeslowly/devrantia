@@ -14,7 +14,7 @@
 
 ### Screenshots
 
-- ![Login form](uploads/ss-login.png)
-- ![Default Admin user profile](uploads/ss-profile-admin.png)
-- ![User profile registered with email](uploads/ss-profile-testuser.png)
-- ![User profile logged in with github](uploads/ss-profile-githubuser.png)
+- ![Login form](uploads/ss-login.png "Login form")
+- ![Default Admin user profile](uploads/ss-profile-admin.png "Default Admin user profile")
+- ![User profile registered with email](uploads/ss-profile-testuser.png "User profile registered with email")
+- ![User profile logged in with github](uploads/ss-profile-githubuser.png "User profile logged in with github")
