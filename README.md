@@ -12,6 +12,10 @@ The purpose of this page is to update you guys with the progress of Devrantia. _
 
 ### Progress
 
+**2018-03-28**
+
+- No. I am not dead. Neither is this project. I will be back soon enough. This kind of pause is supposed to happen in my projects. Cheers!
+
 **2018-01-30**
 
 - Created logo version 1.0.
